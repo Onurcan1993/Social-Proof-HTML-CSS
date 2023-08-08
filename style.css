@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  } */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.main{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+.title-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  margin-top: 80px;
+  
+}
+
+.title{
+  
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size:35px;
+  text-align: center;
+  width: 70%;
+}
+
+.text{
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px;
+  line-height: 20px;
+  color:hsl(303, 10%, 53%);
+  width:80%;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.all-star{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.star{
+  background-color:hsl(300, 24%, 96%);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 78%;
+  padding: 15px;
+}
+
+.one{
+  margin-bottom: 15px;
+}
+.two{
+  margin-bottom: 15px;
+}
+
+.div-star{
+  padding: 0 5px;
+}
+
+.star-text{
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+
+.personels{
+  width: 86%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.card{
+  background-color: hsl(300, 43%, 22%);
+  padding:10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+
+ 
+}
+.name > p{
+  color:hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+.name > span{
+  color:hsl(333, 47%, 52%);
+}
+
+.picture{
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  background-repeat: center center;
+  border-radius: 50%;
+}
+
+.irena{
+  background-image: url(/images/image-irene.jpg);
+}
+
+.anne{
+  background-image: url(/images/image-anne.jpg);
+}
+
+.colton{
+  background-image:url(/images/image-colton.jpg);
+}
+
+.picture-name{
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.name{
+  margin-left: 20px;
+}
+.information{
+  margin: 20px;
+  color:hsl(300, 24%, 96%);
+  line-height: 20px;
+}
+
+.ones, .twos{
+  margin-bottom: 15px;
+}
+
+.threes{
+  margin-bottom: 30px;
+}
+
+@media  screen and (min-width:420px)
+{
+  .main {
+    flex-direction: row;
+    margin-top: 50px;
+    align-items: center;
+    min-width: 1300px;
+    max-width: 1300px;
+  }
+
+
+  .title-text{
+    display: inline-block;
+    width: 50%;
+  }
+
+  .title{
+    font-size:48px;
+    text-align: left;
+    width: 380px;
+  }
+
+  .text{
+    width: 380px;
+    text-align: left;
+    padding: 0;
+
+  }
+
+  .all-star{
+    display: inline-block;
+
+    margin-bottom: 0;
+    width: 420px;
+    margin-top: 50px;
+
+  }
+
+
+  .star{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  
+    
+  }
+
+  .star-text{
+    margin-top: 0px;
+    font-size: 17px;
+  }
+
+  .one{
+    position: relative;
+    right: 100px;
+  }
+  .two{
+    position: relative;
+    right: 50px;
+  }
+
+  .personels{
+    min-width: 1300px;
+    max-width: 1300px;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+
+  .card{
+    background-color: hsl(300, 43%, 22%);
+    padding:10px;
+    border-radius: 8px;
+    display: inline-block;  
+   
+  }
+
+  .information{
+    width:280px;
+  }
+
+  .ones{
+    margin-bottom: 0px;
+    margin-left: 80px;
+  }
+  
+  .twos{
+    margin-bottom: 0px;
+    position: relative;
+    top:15px;
+  }
+  
+  .threes{
+    margin-bottom: 0px;
+    margin-right: 48px;
+    position: relative;
+    top:30px;
+  }
+
+}
