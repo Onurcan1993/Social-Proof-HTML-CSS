@@ -129,15 +129,15 @@
 }
 
 .irena{
-  background-image: url(/images/image-irene.jpg);
+  background-image: url(./images/image-irene.jpg);
 }
 
 .anne{
-  background-image: url(/images/image-anne.jpg);
+  background-image: url(./images/image-anne.jpg);
 }
 
 .colton{
-  background-image:url(/images/image-colton.jpg);
+  background-image:url(./images/image-colton.jpg);
 }
 
 .picture-name{
